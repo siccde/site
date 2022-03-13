@@ -122,3 +122,33 @@ top:120px;
 }
 
   }
+
+@media screen and (max-width: 1080px) and (min-width: 2400px) {
+    h1 {
+      font-size: 3.4rem;
+      line-height: 3.6rem;
+    }
+  
+    p {
+      font-size: 1.7rem;
+      line-height: 2.5rem;
+    }
+  
+    .site-wrap {
+      padding: 6rem 1rem;
+    }
+  
+    section {
+      margin-bottom: 6rem;
+      padding: 2.4rem;
+    }
+
+img
+{
+width: 300px;
+position:absolute;
+right:300px;
+top:120px;
+}
+
+  }
