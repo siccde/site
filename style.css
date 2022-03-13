@@ -93,7 +93,7 @@ top:120px;
     transform: translateY(0);
   }
   
-  @media (max-width: 600px) {
+  @media (min-width: 1025px) and (max-width: 1280px) {
     h1 {
       font-size: 3.4rem;
       line-height: 3.6rem;
@@ -123,7 +123,8 @@ top:120px;
 
   }
 
-@media screen and (min-width: 1080px){
+
+@media (min-width: 320px) and (max-width: 480px) {
     h1 {
       font-size: 3.4rem;
       line-height: 3.6rem;
@@ -145,10 +146,10 @@ top:120px;
 
 img
 {
-width: 200px;
+width: 300px;
 position:absolute;
-right:900px;
-top:500px;
+right:300px;
+top:120px;
 }
 
   }
